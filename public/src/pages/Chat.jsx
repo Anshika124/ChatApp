@@ -47,6 +47,7 @@ export default function Chat() {
   };
   return (
     <>
+    
       <Container>
         <div className="container">
           <Contacts contacts={contacts} changeChat={handleChatChange} />
